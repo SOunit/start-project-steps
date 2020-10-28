@@ -1,0 +1,30 @@
+/*
+* Create Project
+*/ 
+
+build work flow:
+	1. move to direcotry to create project
+	2. run command below, to create project
+	   create-react-app <project name>
+	3. npm start
+	4. npm run build
+	5. upload to firebase
+		firebase login
+		firebase init	/ in project root directory
+		
+		select items in firebase
+		which service?		: hosting service
+		which project?		: exisitng project
+		public folder?  	: build
+		index rewite? 		: no
+
+firebase setting:
+	firebase use <project id>	/ chenge project
+	firebase projects:list		/ check all projects
+
+tools:
+	create-react-app	/ download command is below
+						/ npm install create-react-app -g 
+	node.js 			/ to use create-react-app
+						/ to use node package manager
+	
