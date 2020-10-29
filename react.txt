@@ -8,8 +8,9 @@ build work flow:
 	   create-react-app <project name>
 	3. npm start
 	4. npm run build
-	5. upload to firebase
+	5. login firebase
 		firebase login
+	5. init and upload (only first time)
 		firebase init	/ in project root directory
 		
 		select items in firebase
@@ -17,6 +18,8 @@ build work flow:
 		which project?		: exisitng project
 		public folder?  	: build
 		index rewite? 		: no
+	6. upload firebase
+		firebase deploy
 
 firebase setting:
 	firebase use <project id>	/ chenge project
